@@ -62,7 +62,7 @@ public class Solution {
 			int sum = l1val + l2val + car;
 			car = sum/10;
 			sum = sum%10;
-//			System.out.println(l1val+"\t"+l2val+"\t"+sum+"\t"+car);
+			System.out.println(l1val+"\t"+l2val+"\t"+sum+"\t"+car);
 
 			if(l4 == null) {
 				l4 = new ListNode(sum);
